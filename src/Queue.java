@@ -1,3 +1,22 @@
+/**
+  * Description: Generic FIFO queue implemented
+  * using a linked list.  Supports basic insert
+  * and remove operations.  All operations take
+  * constant time, aside from initilization.
+  * 
+  * Dependencies: None
+  * 
+  * API                            Description
+  * -----------------------------------------------------
+  *     Queue()                    Basic constructor
+  *                                initializes empty list
+  * 
+  * boolean isEmpty()              Is the list empty?
+  * 
+  * void enqueue(Item item)        Supports FIFO insert
+  * 
+  * Item dequeue()                 Supports FIFO remove
+  */
 import edu.princeton.cs.algs4.StdOut;
 
 public class Queue<Item>

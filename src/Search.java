@@ -1,3 +1,32 @@
+/**
+  * Description: Generic FIFO queue implemented
+  * using a linked list.  Supports basic insert
+  * and remove operations.  All operations take
+  * constant time, aside from initilization.
+  * 
+  * Dependencies: Graph.java, Queue.java
+  * 
+  * API                            Description
+  * -----------------------------------------------------
+  *     Search(Graph undirectedG, int source)
+  *                                Run depth first search
+  *                                from source on an
+  *                                undirected graph
+  * 
+  * 
+  * void depthFirstSearch(Graph g, int v)
+  *                                Recursive dfs for an
+  *                                undirected graph 
+  * 
+  * boolean isConnected(int w)     Is a vertex connected 
+  *                                to the graph containing
+  *                                the source vertex which
+  *                                was used for init?
+  * 
+  * int numOfConnections()         Number of vertices the
+  *                                source vertex is
+  *                                connected to                                
+  */
 import edu.princeton.cs.algs4.StdOut;
 import edu.princeton.cs.algs4.In;
 
