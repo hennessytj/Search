@@ -33,12 +33,14 @@ import edu.princeton.cs.algs4.In;
 public class Search
 {
     private boolean[] visited;
-    private int connections;    
+    private int connections;
+    private int source;
     
     public Search(Graph undirectedG, int source)
     {
         visited = new boolean[undirectedG.numOfVertices()]; // init to false
         connections = 0;
+        this.source = source;
         depthFirstSearch(undirectedG, source);
     }
     
